@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[data-theme="dark"] {
+  --bg-color: #1a202c; /* Dark background */
+  --text-color: #e2e8f0; /* Light text */
+}
+
+[data-theme="light"] {
+  --bg-color: #f7fafc; /* Light background */
+  --text-color: #2d3748; /* Dark text */
+}
